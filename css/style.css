@@ -1,0 +1,101 @@
+@font-face{
+	font-family: 'gotham-book';
+    src: url('../fonts/gotham-book.ttf') format('truetype') 
+}
+@font-face{
+	font-family: 'gotham-medium';
+    src: url('../fonts/gotham-medium.ttf') format('truetype') 
+}
+@font-face{
+	font-family: 'gotham-bold';
+    src: url('../fonts/gotham-bold.ttf') format('truetype') 
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:before,
+.clearfix:after {
+
+     content: ".";
+     display: table;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+.content{
+	width: 900px;
+	margin: 0 auto;
+}
+.logo {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+a, a:visited{
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.nav{
+	float: right;
+	margin-top: 26px;
+	margin-bottom: 40px;
+}
+
+.nav a li{
+	display: inline-block;
+	margin-left: 105px;
+	font: 12px/50px 'gotham-medium', serif;
+	color: #a7a7a7;
+	text-transform: uppercase;
+}
+.topsky{
+	background: url("../img/skybg.jpg") no-repeat;
+	width: 1200px;
+}
+.toptitle{
+	font: 40px/50px 'gotham-bold', serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #303030;
+}
+.toptitle-block{
+	padding-top: 80px;
+}
+.topsection span{
+	display: block;
+	font: 16px/30px Georgia, serif;
+	font-style: italic;
+	color: #5a5a5a;
+	text-align: center;
+}
+.circle{
+	padding-top: 70px;
+	padding-bottom: 157px;
+
+}
+.arrow{
+	background: url("../img/arrow.png") no-repeat;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 15px 50% black;
+}
