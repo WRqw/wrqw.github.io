@@ -87,7 +87,7 @@ h1.toptitle{
 	margin: 0;
 	padding: 0;
 }
-.topsection span{
+.topsky .topsection span{
 	display: block;
 	font: 16px/30px Georgia, serif;
 	font-style: italic;
@@ -110,6 +110,7 @@ h2 {
 }
 .featured{
 	margin-top: 40px;
+	border-bottom: 1px solid #e5e5e5;
 }
 .ftitle{
 	margin-top: 35px;
@@ -132,7 +133,7 @@ h2 {
 	border-top: 3px solid #303030;
 }
 .works{
-	text-align: center;
+	margin-bottom: 40px;
 }
 p.slogan{
 	padding-top: 32px;
@@ -142,4 +143,91 @@ p.slogan{
 	font: 16px/25px 'ProximaNovaRegular', sans-serif;
 	color: #5a5a5a;
 	text-align: center;
+}
+.works a:nth-child(1),
+.works a:nth-child(2),
+.works a:nth-child(4),
+.works a:nth-child(5),
+.works a:nth-child(7),
+.works a:nth-child(8)
+{
+	margin-right: 50px;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 50px;
+	display: inline-block;
+}
+.works a:nth-child(1),
+.works a:nth-child(2),
+.works a:nth-child(3){
+	margin-top: 0;
+}
+.border-team{
+	margin: 0 auto;
+	width: 180px;
+	height: 3px;
+	border-top: 3px solid #303030;
+}
+.team span{
+	display: block;
+	font: 16px/25px 'ProximaNovaRegular', sans-serif;
+	color: #5a5a5a;
+	text-align: center;
+	width: 538px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 58px;
+}
+.cutaway{
+	display: inline-block;
+	background: url("../img/cutaway.png") no-repeat;
+	width: 210px;
+	height: 210px;
+	padding-bottom: 50px;
+
+}
+.face1{
+	background: url("../img/face1.png") no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	margin-top: 20px;
+}
+.face2{
+	background: url("../img/face2.png") no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	margin-top: 20px;
+}
+.face3{
+	background: url("../img/face3.png") no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	margin-top: 20px;
+}
+.face4{
+	background: url("../img/face4.png") no-repeat;
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	margin-top: 20px;
+}
+h2.name{
+	font: 16px 'gotham-bold', serif;
+	color: #303030;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+}
+span.spec{
+	width: auto;
+	padding-top: 12px;
+	margin: 0;
+
+	font: italic 12px Georgia, serif;
+	text-align: center;
+	color: #303030;
+	
 }
