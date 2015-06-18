@@ -10,6 +10,10 @@
 	font-family: 'gotham-bold';
     src: url('../fonts/gotham-bold.ttf') format('truetype') 
 }
+@font-face{
+	font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular.ttf") format("truetype");
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -77,7 +81,11 @@ ul{
 	color: #303030;
 }
 .toptitle-block{
-	padding-top: 80px;
+	padding-top: 150px;
+}
+h1.toptitle{
+	margin: 0;
+	padding: 0;
 }
 .topsection span{
 	display: block;
@@ -85,17 +93,53 @@ ul{
 	font-style: italic;
 	color: #5a5a5a;
 	text-align: center;
+	margin-top: 30px;
 }
 .circle{
 	padding-top: 70px;
-	padding-bottom: 157px;
+	padding-bottom: 50px;
 
 }
 .arrow{
-	background: url("../img/arrow.png") no-repeat;
-	width: 80px;
-	height: 80px;
-	text-align: center;
+	width: 90px;
 	margin: 0 auto;
-	border-radius: 15px 50% black;
+}
+h2 {
+	margin: 0;
+	padding: 0;
+}
+.featured{
+	margin-top: 40px;
+}
+.ftitle{
+	margin-top: 35px;
+	margin-bottom: 18px;
+	text-align: center;
+}
+.ftitle span{
+	font: 30px/25px 'gotham-bold', serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 18px;
+	color: #303030;
+
+	
+}
+.border{
+	margin: 0 auto;
+	width:240px;
+	height: 3px;
+	border-top: 3px solid #303030;
+}
+.works{
+	text-align: center;
+}
+p.slogan{
+	padding-top: 32px;
+	padding-bottom: 52px;
+	width: 535px;
+	margin: 0 auto;
+	font: 16px/25px 'ProximaNovaRegular', sans-serif;
+	color: #5a5a5a;
+	text-align: center;
 }
